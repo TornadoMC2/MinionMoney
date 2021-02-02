@@ -4,7 +4,7 @@ const fs = require('fs')
 const mongoose = require("mongoose");
 const GuildSettings = require('./models/guildSettings')
 
-var client = new Eris.CommandClient("ODA2MjYyNzY5NDAxNTkzOTI2.YBm4tw.igD-36ehiNuT9Tl5PR6bMUk6_Kk", {
+var client = new Eris.CommandClient(no, {
   getAllUsers: true,
   intents: ["guildMembers", "guilds", "guildMessages", "guildMessageReactions"]
 }, {
@@ -13,7 +13,7 @@ var client = new Eris.CommandClient("ODA2MjYyNzY5NDAxNTkzOTI2.YBm4tw.igD-36ehiNu
   prefix: [",", "@mention"]
 })
 
-mongoose.connect("mongodb+srv://TornadoMC:Hunter123HCJ@data.gzfdj.mongodb.net/data?retryWrites=true&w=majority", {
+mongoose.connect(no, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
