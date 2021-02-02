@@ -1,0 +1,29 @@
+{
+  "name": "minionmoney",
+  "version": "0.0.1",
+  "description": "A bot I guess",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "eris": "^0.14.0",
+    "node-fetch": "^2.6.1",
+    "fs": "^0.0.2",
+    "mongoose": "^5.11.13",
+    "mongodb": "^3.6.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
