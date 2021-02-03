@@ -1,0 +1,541 @@
+{
+  "wheat": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "15",
+        "storage": "128"
+      },
+      "2": {
+        "cooldown": "15",
+        "storage": "256"
+      },
+      "3": {
+        "cooldown": "13",
+        "storage": "256"
+      },
+      "4": {
+        "cooldown": "13",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "11",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "11",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "11",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "10",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "9",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "9",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "8",
+        "storage": "960"
+      }
+    }
+  },
+  "carrot": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "20",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "20",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "18",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "18",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "16",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "16",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "14",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "14",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "12",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "12",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "10",
+        "storage": "960"
+      }
+    }
+  },
+  "potato": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "15",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "15",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "13",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "13",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "11",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "11",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "11",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "10",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "9",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "9",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "8",
+        "storage": "960"
+      }
+    }
+  },
+  "pumpkin": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "32",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "32",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "30",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "30",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "27",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "27",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "24",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "24",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "20",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "20",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "16",
+        "storage": "960"
+      }
+    }
+  },
+  "melon": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "24",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "24",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "22.5",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "22.5",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "21",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "21",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "18.5",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "18.5",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "16",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "16",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "13",
+        "storage": "960"
+      }
+    }
+  },
+  "mushroom": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "30",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "30",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "28",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "28",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "26",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "26",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "23",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "23",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "20",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "20",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "16",
+        "storage": "960"
+      }
+    }
+  },
+  "cocoa_beans": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "27",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "27",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "25",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "25",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "23",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "23",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "21",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "21",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "18",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "18",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "15",
+        "storage": "960"
+      }
+    }
+  },
+  "cactus": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "27",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "27",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "25",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "25",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "23",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "23",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "21",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "21",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "18",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "18",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "15",
+        "storage": "960"
+      }
+    }
+  },
+  "sugar_cane": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "22",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "22",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "20",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "20",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "18",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "18",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "16",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "16",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "14.5",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "14.5",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "12",
+        "storage": "960"
+      }
+    }
+  },
+  "cow": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "26",
+        "storage": "128"
+      },
+      "2": {
+        "cooldown": "26",
+        "storage": "256"
+      },
+      "3": {
+        "cooldown": "24",
+        "storage": "256"
+      },
+      "4": {
+        "cooldown": "24",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "22",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "22",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "20",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "20",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "17",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "17",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "13",
+        "storage": "960"
+      }
+    }
+  },
+  "pig": {
+    "type": "farming",
+    "tiers": {
+      "1": {
+        "cooldown": "26",
+        "storage": "64"
+      },
+      "2": {
+        "cooldown": "26",
+        "storage": "192"
+      },
+      "3": {
+        "cooldown": "24",
+        "storage": "192"
+      },
+      "4": {
+        "cooldown": "24",
+        "storage": "384"
+      },
+      "5": {
+        "cooldown": "22",
+        "storage": "384"
+      },
+      "6": {
+        "cooldown": "22",
+        "storage": "576"
+      },
+      "7": {
+        "cooldown": "20",
+        "storage": "576"
+      },
+      "8": {
+        "cooldown": "20",
+        "storage": "768"
+      },
+      "9": {
+        "cooldown": "17",
+        "storage": "768"
+      },
+      "10": {
+        "cooldown": "17",
+        "storage": "960"
+      },
+      "11": {
+        "cooldown": "13",
+        "storage": "960"
+      }
+    }
+  }
+}

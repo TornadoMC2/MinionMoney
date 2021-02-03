@@ -36,7 +36,7 @@ function helpEmbed(page, maxPage, client, botName, commandTypes, author, msg, pr
       return {embed}
     }
 
-    if(this.page == 1) {
+    if(this.page === 1) {
 
       let embed = {title: `${this.botName} - Categories`}
       embed.color = 0x23c248
@@ -46,7 +46,7 @@ function helpEmbed(page, maxPage, client, botName, commandTypes, author, msg, pr
       let ctn = ''
 
       for(var i in categories) {
-        ctn += `${(i == 0 ? `` : `\n`)}\`${categories[i].charAt(0).toUpperCase() + categories[i].slice(1)}\``
+        ctn += `${(i === 0 ? `` : `\n`)}\`${categories[i].charAt(0).toUpperCase() + categories[i].slice(1)}\``
       }
 
       embed.description = ctn
@@ -65,13 +65,13 @@ function helpEmbed(page, maxPage, client, botName, commandTypes, author, msg, pr
       let cnt = ''
 
       for(var i in cmdInCat) {
-        if(author == 425624104901541888)
-          cnt += `${(i == 0 ? `` : `\n\n`)}\`${prefix}${commands[cmdInCat[i]].usage}\` - ${commands[cmdInCat[i]].description}`
+        if(author === 425624104901541888)
+          cnt += `${(i === 0 ? `` : `\n\n`)}\`${prefix}${commands[cmdInCat[i]].usage}\` - ${commands[cmdInCat[i]].description}`
         else {
-          if(commands[cmdInCat[i]].hidden && i == cmdInCat.length-1)
+          if(commands[cmdInCat[i]].hidden && i === cmdInCat.length-1)
             cnt += `Nothing to see here!`
           if(!commands[cmdInCat[i]].hidden)
-            cnt += `${(i == 0 ? `` : `\n\n`)}\`${prefix}${commands[cmdInCat[i]].usage}\` - ${commands[cmdInCat[i]].description}`
+            cnt += `${(i === 0 ? `` : `\n\n`)}\`${prefix}${commands[cmdInCat[i]].usage}\` - ${commands[cmdInCat[i]].description}`
         }
       }
       
